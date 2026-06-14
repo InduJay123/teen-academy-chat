@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import ChatInput from './ChatInput.jsx';
 import ChatMessage from './ChatMessage.jsx';
 
-const WEBHOOK_URL = 'http://64.227.141.161:5678/webhook/teen-academy-chat';
+const WEBHOOK_URL = '/api/chat';
 
 export default function ChatPage() {
   const [messages, setMessages] = useState([
