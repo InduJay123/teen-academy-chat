@@ -1,0 +1,26 @@
+# Normalize all text files and enforce CRLF on checkout for common web files
+* text=auto
+*.js text eol=crlf
+*.jsx text eol=crlf
+*.css text eol=crlf
+*.html text eol=crlf
+*.json text eol=crlf
+*.md text eol=crlf
+*.yml text eol=crlf
+*.yaml text eol=crlf
+*.ts text eol=crlf
+*.tsx text eol=crlf
+*.txt text eol=crlf
+
+# Binary files should not be normalized
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.eot binary
+*.ttf binary
+*.otf binary
