@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api/chat': {
-        target: 'https://64.227.141.161:5678',
+        target: 'http://64.227.141.161:5678',
         changeOrigin: true,
         rewrite: (path) =>
           path.replace(/^\/api\/chat/, '/webhook/teen-academy-chat'),
